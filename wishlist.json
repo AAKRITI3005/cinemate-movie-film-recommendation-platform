@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1033462,
+    "title": "Bureau 749",
+    "year": "2024",
+    "poster": "https://image.tmdb.org/t/p/w500/flykCMw22y6yv8vKnBjmsW3pneo.jpg",
+    "rating": 5.5,
+    "genre": "Action, Adventure, Science Fiction"
+  },
+  {
+    "id": 1363123,
+    "title": "The Family Plan 2",
+    "year": "2025",
+    "poster": "https://image.tmdb.org/t/p/w500/semFxuYx6HcrkZzslgAkBqfJvZk.jpg",
+    "rating": 6.774,
+    "genre": "Action, Comedy"
+  },
+  {
+    "id": 1062722,
+    "title": "Frankenstein",
+    "year": "2025",
+    "poster": "https://image.tmdb.org/t/p/w500/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+    "rating": 7.8,
+    "genre": "Drama, Horror, Fantasy"
+  },
+  {
+    "id": 1309012,
+    "title": "Altered",
+    "year": "2025",
+    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
+    "rating": 6.87,
+    "genre": "Science Fiction, Action"
+  },
+  {
+    "id": 1054867,
+    "title": "One Battle After Another",
+    "year": "2025",
+    "poster": "https://image.tmdb.org/t/p/w500/m1jFoahEbeQXtx4zArT2FKdbNIj.jpg",
+    "rating": 7.49,
+    "genre": "Action, Thriller, Crime"
+  },
+  {
+    "id": 1311031,
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "year": "2025",
+    "poster": "https://image.tmdb.org/t/p/w500/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+    "rating": 7.595,
+    "genre": "Animation, Action, Fantasy, Thriller"
+  }
+]
