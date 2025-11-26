@@ -1,67 +1,67 @@
-# Movie Recommender System
+# 🎬 CINEMATE – Movie & Film Recommendation Platform
 
-Unlock Your Next Favorite Film! Our NLP-powered Movie Recommendation Web App delivers tailored suggestions based on cast, genres, and production companies. Explore a seamless Streamlit interface, also, you can see the description of selected movies and access a list of all movies.
-
-## Project Overview
-
-Our Movie Recommender System, built using Python and Natural Language Processing (NLP), offers a user-friendly way to discover your next favorite movie. We utilize the bag-of-words concept to generate movie recommendations based on factors like similarity, tags, genre, and production company. Additionally, you can access detailed information about each movie and its cast.
-
-## Sample Application Screenshots
+Cinemate is a content-based movie recommendation system that suggests similar movies using TMDB datasets and cosine similarity.  
+It processes movie metadata such as genres, cast, crew, overview, and keywords to recommend the most relevant films to the user.
 
 
-![Sample Image 1](https://github.com/AnupamMittal-21/Movie-Recommender-System/assets/96871662/cce0c494-4dde-4872-868b-2f6f23b24a68)
-![Sample Image 2](https://github.com/AnupamMittal-21/Movie-Recommender-System/assets/96871662/ff4fd4bd-1cf3-4580-9614-67e8698b45e5)
+## 🚀 Features
 
+- Movie search functionality  
+- Top similar movie recommendations  
+- TMDB Movies & Credits dataset integrated  
+- Cosine similarity–based ML model  
+- Wishlist support  
+- Clean and simple UI  
 
-**Description Page:** Explore essential movie details and information about the cast.
+---
 
+## 🧠 How It Works
 
-![Sample Image 3](https://github.com/AnupamMittal-21/Movie-Recommender-System/assets/96871662/beb53c76-4cd1-466d-b32d-97a63555c043)
-![Sample Image 4](https://github.com/AnupamMittal-21/Movie-Recommender-System/assets/96871662/bb6915a7-8c49-4bd8-ade9-45caeb701d75)
+1. TMDB datasets are loaded & merged  
+2. Text-based features (overview, genres, cast, crew, keywords) are extracted  
+3. A combined "tags" feature is created  
+4. Similarity matrix generated using **Cosine Similarity**  
+5. Recommendations shown based on similarity scores  
 
+---
 
-**Check All Movies Page:** Navigate between pages with ease using buttons or the slider.
+## 🛠 Tech Used
 
+- **Python**  
+- **pandas**, **numpy**  
+- **scikit-learn**  
+- **ast**, **requests**  
+- **TMDB movie metadata**  
 
-![Sample Image 5](https://github.com/AnupamMittal-21/Movie-Recommender-System/assets/96871662/02473070-91cf-45a0-8016-eee8b70ee2ae)
+---
 
+## 🖼 Screenshots
 
-## Watch the Demo
+### 🏠 Home Page
+![Home](Files/screenshots/Screenshot%202025-11-26%20200617.png)
 
+### 🔍 Wishlist
+![Wishlist](Files/screenshots/Screenshot%202025-11-26%20200020.png)
 
-For a live demonstration of our Movie Recommender System, watch the following video:
-[![Watch the Demo](https://img.youtube.com/vi/0BJgu4qZqOM/0.jpg)](https://youtu.be/0BJgu4qZqOM)
+### 🎞 Recommendations Page
+![Recommendations](Files/screenshots/Screenshot%202025-11-26%20200051.png)
 
+### ⭐ Describe Movie
+![Describe](Files/screenshots/Screenshot%202025-11-26%20200345.png)
 
-## Try the App
+### 💖 Trailer and Availability
+![Trailer](Files/screenshots/Screenshot%202025-11-26%20200436.png)
 
-Explore the Movie Recommender System yourself! Our app is deployed on Streamlit. Click the link below to get started:
-[**Movie Recommender System App**](https://movie-recommender-syst.streamlit.app/)
+### 📊 Compare Movies
+![Compare](Files/screenshots/Screenshot%202025-11-26%20200725.png)
 
-## Installation Guide
+### 🖥 Final Compare Overview
+![UI Overview](Files/screenshots/Screenshot%202025-11-26%20200743.png)
 
-Follow these steps to set up and run the application:
+---
 
-1. **Clone the Repository:** 
-    ```bash
-    git clone https://github.com/AnupamMittal-21/Movie-Recommender-System.git
-    ```
+## ▶️ Run Locally
 
-2. **Create a Virtual Environment:** 
-   Make sure you have a virtual environment set up for your project.
-
-3. **Install Dependencies:**
-   Install the required dependencies using the `requirements.txt` file:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Application:**
-   To start the app, execute the following command in your terminal:
-   ```bash
-   streamlit run main.py
-   ```
-
-**Note**: When running the application for the first time, it may take some time as it creates necessary files and initializes the environment.
-
-Discover the joy of finding your next favorite movie with our Movie Recommender System!
+```bash
+pip install -r requirements.txt
+python main.py
